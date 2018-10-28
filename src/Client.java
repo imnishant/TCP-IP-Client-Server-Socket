@@ -5,7 +5,7 @@ import java.util.*;
 public class Client {
 
 	public static void main(String[] args) throws UnknownHostException, IOException, NoSuchElementException {
-		String filePath = "src/RSA.java";
+		String filePath = "Enter path of file";
 		Socket socket = new Socket("192.168.0.114",1235);
 		Scanner scan = new Scanner(System.in);
 		BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
